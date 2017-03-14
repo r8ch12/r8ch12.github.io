@@ -2,24 +2,6 @@ body {
 	text-align: center;
 }
 
-.home{	background-image: url(../images/long-island.jpg);
-		background-size: cover;
-
-
-}
-
-#slogan{color:white;
-	font-style: italic;
-
-}
-
-.gallery{	margin: 1px;
-	max-width: 600px;
-	display: inline-block;
-	vertical-align: top;
-
-}
-
 ul{
 	list-style-type: none;
 	margin: 0;
@@ -43,6 +25,25 @@ li a:hover {
 	background-color: #555;
 	color: white;
 }
+
+.home{	background-image: url(../images/long-island.jpg);
+		background-size: cover;
+
+
+}
+
+#slogan{color:white;
+	font-style: italic;
+
+}
+
+.gallery{	margin: 1px;
+	max-width: 600px;
+	display: inline-block;
+	vertical-align: top;
+
+}
+
 
 .img{
 	text-align: center;
