@@ -1,8 +1,16 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+
+*{
+	margin:0;
+	padding:0;
+}
 body {
 	text-align: center;
+	font-family: 'Roboto', sans-serif;
 }
 
-ul{
+ul{	
 	list-style-type: none;
 	margin: 0;
 	padding: 0;
@@ -26,6 +34,7 @@ li a:hover {
 	color: white;
 }
 
+
 .home{	background-image: url(../images/long-island.jpg);
 		background-size: cover;
 
@@ -34,6 +43,11 @@ li a:hover {
 
 #slogan{color:white;
 	font-style: italic;
+
+}
+
+.story{ font-size: 13px;
+		line-height: 1.5em;
 
 }
 
