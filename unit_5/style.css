@@ -1,0 +1,86 @@
+
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,500,900');
+
+body{
+	margin: 0px;
+	padding: 0px ;
+	box-sizing: border-box;
+	text-align: center;
+	font-family: 'Roboto', sans-serif;
+}
+
+header{
+	font-size: 50px;
+
+
+}
+
+footer{
+
+}
+
+section{
+
+}
+
+main{
+
+}
+
+h2{
+	font-size: 50px;
+
+}
+
+li{
+	display: block;
+	float:left;
+	width:300px;
+	height: 150px;
+	padding:5px;
+	font-size: 50px;
+	text-align: center;
+
+
+}
+
+
+p{
+	
+}
+
+a{
+
+}
+
+.story{
+	text-align: center;
+	margin: auto;
+	font-size: 20px;
+	line-height: 1.5em;
+	width: 40em;
+}
+
+.background{
+	background-position: bottom;
+	background-image: url(images/long-island.jpg);
+	height: 100vh;
+}
+
+
+#logo{
+	box-shadow: 2px 2px 5px white;
+}
+
+
+#button{
+
+}
+
+.gallery{
+	box-sizing: border-box;
+	width: 33.33%;
+	float: left;
+	margin: auto;
+
+}
