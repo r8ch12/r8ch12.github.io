@@ -34,15 +34,20 @@ h2{
 
 }
 
+
 p{
 	font-family: 'Roboto Slab', serif;
 
 }
 
+aside{
+	float: right;
+}
+
 footer{
 	background-color: grey;
-	margin-top: 8em;
-	padding:1.5em;
+	margin-top: 5em;
+	padding:.5em;
 }
 
 .wrapper{
@@ -88,7 +93,8 @@ footer{
 
 #four{
 	display: inline;
-	padding-bottom: 2em;
+	padding: 2em ;
+	width: 22em;
 }
 
 #box1, #box2, #box3, #box4{
@@ -111,5 +117,6 @@ footer{
 #box4{
 	background-color: #E1E5D9;
 }
+
 
 
