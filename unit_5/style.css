@@ -1,75 +1,115 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto:400,500,900');
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab:300|Roboto:400,700');
 
 
 body{
-	margin: 0px;
-	padding: 0px ;
-	box-sizing: border-box;
-	text-align: center;
+	font-size: 16px;
+	font-family: 'Roboto Slab', serif;
 	font-family: 'Roboto', sans-serif;
-
-}
-
-header{
-	background-color: #FFED74;
-	
+	text-decoration: none;
 }
 
 nav{
-	background-color: #E8C66A;
-	border: 10px solid black;
+	background-color: #7D7F7E;
+	color: white;
+	padding: 1em;
+	text-decoration: none;
+}
 
+nav a{
+	margin: 2em;
+	padding: 4em;
+	text-decoration: none;
+	text-transform: uppercase;
+}
 
+nav a:hover{
+	color: white;
+
+}
+
+h2{	
+	font-size: 3em;
+	margin: 1em;
+	padding: 1.5em;
+
+}
+
+p{
+	font-family: 'Roboto Slab', serif;
 
 }
 
 footer{
-	background-color: #FF957E;
-	
-}
-
-h2{
-	font-size: 40px;
+	background-color: grey;
+	margin-top: 8em;
+	padding:1.5em;
 }
 
 .wrapper{
-	width: 100%;
-
-}
-
-.logo{
-
-
-}
-
-
-#one #two #three{
-	background-color: #FFE2B8;
-	padding:20px;
-
-}
-
-
-.box{
-	background-color: #FFC675;
 	margin: 0 auto;
-	padding: 250px;
-
+	padding: 0;
+	box-sizing: border-box;
+	width: 80em;
+	text-align: center;
 }
-
 
 .story{
-	background-color: #E89C6C;
 	font-style: italic;
-	text-align: center;
-	margin: auto;
-	padding:30px;
-	font-size: 15px;
-	line-height: 1.75em;
-	width: 45em;
+	line-height: 1.5em;
+	margin:0 auto;
+	width: 50em;
 }
 
 .story2{
-	background-color: #E89C6C;
-	
+	line-height: 1.5em;
+	margin: 0 auto;
+	width: 50em;
 }
+
+.map{
+	background-color: blue;
+	padding: 2em;
+	height: 30em;
+}
+
+#logo{
+	margin: 1em;
+	padding: 1em;
+	box-shadow: 2px 2px 4px rgba(0,0,0,.25);
+}
+
+#two{
+	background-color: grey;
+	margin: auto;
+	padding: .5em;
+	height: 60em;
+
+}
+
+#four{
+	display: inline;
+	padding-bottom: 2em;
+}
+
+#box1, #box2, #box3, #box4{
+	width: 10em;
+	background-color: #3F403C;
+	float:left;
+	margin: .5em auto;
+	padding: 5em;
+	height: 60em;
+}
+
+#box2{
+	background-color: #BCBFB5;
+}
+
+#box3{
+	background-color: #7D7F79;
+}
+
+#box4{
+	background-color: #E1E5D9;
+}
+
+
