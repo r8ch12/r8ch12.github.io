@@ -77,6 +77,15 @@ footer{
 	height: 30em;
 }
 
+.clearfix:after{
+	visibility: hidden;
+	display: block;	
+	font-size: 0;
+	content: "";
+	clear: both;
+	height: 0;
+}
+
 #logo{
 	margin: 1em;
 	padding: 1em;
@@ -88,7 +97,6 @@ footer{
 	margin: auto;
 	padding: .5em;
 	height: 60em;
-
 }
 
 #four{
@@ -96,6 +104,24 @@ footer{
 	padding: 2em ;
 	width: 22em;
 }
+
+/*#two_column{
+	background-color: #ffb7cf;
+	border: 1px black solid;
+	padding: 20px;
+}*/
+
+/*#left{
+	background-color: #e582a2;
+	border: 1px black solid;
+	padding: 20px;
+}*/
+
+/*#right{
+	background-color: #e55b88;
+	border: 1px black solid;
+	padding: 20px;
+}*/
 
 #box1, #box2, #box3, #box4{
 	width: 10em;
