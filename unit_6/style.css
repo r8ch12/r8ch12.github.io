@@ -1,42 +1,62 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto+Slab:300|Roboto:400,700');
 
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	text-decoration: none;
+
+}
 
 body{
 	font-size: 16px;
 	font-family: 'Roboto Slab', serif;
 	font-family: 'Roboto', sans-serif;
-	text-decoration: none;
 }
 
 nav{
 	background-color: #7D7F7E;
-	color: white;
-	padding: 1em;
-	text-decoration: none;
+	width: 100%;
+
+	
 }
 
 nav a{
-	margin: 2em;
-	padding: 4em;
-	text-decoration: none;
+	display: inline-block;
+	padding: 1em 2em;
+	margin: 0 2em;	
 	text-transform: uppercase;
-}
-
-nav a:hover{
 	color: white;
 
 }
 
-h2{	
+nav a:hover{
+	color: green;
+
+}
+
+h2{	color:#aaa;
 	font-size: 3em;
 	margin: 1em;
 	padding: 1.5em;
 
 }
 
+h3{
+	color: green;
+	text-transform: uppercase;
+}
+
+hr{
+	margin: 0 auto;
+	padding: 0 auto;
+	width:20%;
+	border: .5px solid green;
+}
 
 p{
 	font-family: 'Roboto Slab', serif;
+
 
 }
 
@@ -46,6 +66,7 @@ aside{
 
 footer{
 	background-color: grey;
+	width: 100%;
 	margin-top: 5em;
 	padding:.5em;
 }
@@ -54,26 +75,27 @@ footer{
 	margin: 0 auto;
 	padding: 0;
 	box-sizing: border-box;
-	width: 80em;
+	width: 80%;
 	text-align: center;
 }
 
 .story{
 	font-style: italic;
-	line-height: 1.5em;
+	line-height: 2.5em;
 	margin:0 auto;
-	width: 50em;
+	width: 65%;
 }
 
 .story2{
-	line-height: 1.5em;
+	line-height: 2.5em;
 	margin: 0 auto;
-	width: 50em;
+	width: 65%;
+	padding-top: 4em;
 }
 
 .map{
-	background-color: blue;
-	padding: 2em;
+	width: 100%;
+	padding: 1em;
 	height: 30em;
 }
 
@@ -86,33 +108,48 @@ footer{
 	height: 0;
 }
 
+
 #logo{
 	margin: 1em;
 	padding: 1em;
 	box-shadow: 2px 2px 4px rgba(0,0,0,.25);
 }
 
-#two{
-	background-color: grey;
-	margin: auto;
+
+
+#button{
+	color: green;
+	padding: 4em;
+}
+
+#longisland{
+	margin: 0 auto;
 	padding: .5em;
-	height: 60em;
+
 }
 
-#four{
-	display: inline;
-	padding: 2em ;
-	width: 22em;
+#caption{
+	margin: 0 auto;
+	padding: 4em;
+	width: 100%;
 }
 
-#two_column{
-	background-color: #ffb7cf;
-	border: 1px black solid;
-	padding: 2em;
-	margin-top: 2em;
+#column, #column2{
+	display: inline-block;
+	border: 2px solid green;
+	margin: 2em 2em;
+	padding: 3em;
 }
 
-#left{
+#wintermarkets, #summermarkets{
+	float: left;
+
+
+}
+
+	
+
+/*#left{
 	background-color: violet;
 	border: 1px black solid;
 	padding: 20px;
@@ -126,10 +163,10 @@ footer{
 	padding: 20px;
 	float: right;
 	width: 62%;
-}
+}*/
 
 #box1, #box2, #box3, #box4{
-	width: 10em;
+	width: 25%;
 	background-color: #3F403C;
 	float:left;
 	margin: .5em auto;
