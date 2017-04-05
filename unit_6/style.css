@@ -35,6 +35,11 @@ nav a:hover{
 
 }
 
+header{
+    background: url("background.jpg") no-repeat;
+	height: 40em;
+}
+
 h2{	color:#aaa;
 	font-size: 3em;
 	margin: 1em;
@@ -56,9 +61,8 @@ hr{
 
 p{
 	font-family: 'Roboto Slab', serif;
-
-
 }
+
 
 aside{
 	float: right;
@@ -68,9 +72,14 @@ footer{
 	background-color: grey;
 	width: 100%;
 	margin-top: 5em;
-	padding:.5em;
+	padding: 1em ;
+	margin: 0 auto;
 }
 
+#foot p{
+	float: left;
+
+}
 .wrapper{
 	margin: 0 auto;
 	padding: 0;
@@ -83,7 +92,8 @@ footer{
 	font-style: italic;
 	line-height: 2.5em;
 	margin:0 auto;
-	width: 65%;
+	width: 60%;
+	padding-top: 12em;
 }
 
 .story2{
@@ -108,14 +118,10 @@ footer{
 	height: 0;
 }
 
-
 #logo{
 	margin: 1em;
-	padding: 1em;
-	box-shadow: 2px 2px 4px rgba(0,0,0,.25);
+	padding: 2em auto;
 }
-
-
 
 #button{
 	color: green;
@@ -136,54 +142,37 @@ footer{
 
 #column, #column2{
 	display: inline-block;
-	border: 2px solid green;
 	margin: 2em 2em;
-	padding: 3em;
+	padding: 2em;
 }
 
 #wintermarkets, #summermarkets{
 	float: left;
-
-
 }
 
 	
-
-/*#left{
-	background-color: violet;
-	border: 1px black solid;
-	padding: 20px;
-	float:	left;
-	width: 30%;
+#facts h2{
+	font-size: 2em;
+	padding: 0;
+	margin: 0;
 }
 
-#right{
-	background-color: #e55b88;
-	border: 1px black solid;
-	padding: 20px;
-	float: right;
-	width: 62%;
-}*/
+#facts h3{
+	text-transform: lowercase;
+}
 
 #box1, #box2, #box3, #box4{
-	width: 25%;
-	background-color: #3F403C;
+	width:25%;
 	float:left;
-	margin: .5em auto;
-	padding: 5em;
-	height: 60em;
+	margin: 1.5em;
+	height: 40em;
 }
 
-#box2{
-	background-color: #BCBFB5;
-}
+#photos{
+	display: inline-block;
+	max-width: 100%;
+	padding-bottom: 2em;
 
-#box3{
-	background-color: #7D7F79;
-}
-
-#box4{
-	background-color: #E1E5D9;
 }
 
 
