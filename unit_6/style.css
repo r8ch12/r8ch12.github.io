@@ -113,9 +113,9 @@ footer{
 }
 
 .map{
-	width: 100%;
+	margin: 0;
 	padding: 1em;
-	height: 30em;
+
 }
 
 .clearfix:after{
