@@ -25,7 +25,7 @@ nav{
 nav a{
 	display: inline-block;
 	padding: 1em 2em;
-	margin: 0 2em;	
+	margin: 0;
 	text-transform: uppercase;
 	color: white;
 
@@ -82,13 +82,17 @@ footer{
 	width: 100%;
 	margin-top: 5em;
 	padding: 1em ;
-	margin: 0 auto;
 }
+
 
 #foot p{
 	float: left;
-
 }
+
+#bar{
+	background-color: grey;
+}
+
 .wrapper{
 	margin: 0 auto;
 	padding: 0;
@@ -118,6 +122,7 @@ footer{
 
 }
 
+
 .clearfix:after{
 	visibility: hidden;
 	display: block;	
@@ -138,8 +143,10 @@ footer{
 }
 
 #longisland{
+	width: 100%;
 	margin: 0 auto;
 	padding: .5em;
+	pointer-events: none;
 
 }
 
@@ -154,9 +161,6 @@ footer{
 	padding: 1em;
 	height: 9em;
 	margin-bottom: 2em;
-
-
-
 }
 
 #column2{
@@ -173,6 +177,16 @@ footer{
 	float: left;
 }
 
+#facts{
+	max-width: 1400px;
+}
+
+#facts img{
+	width: 100%;
+	padding: .125em;
+	max-width: 283px;
+
+}
 	
 #facts h2{
 	font-size: 2em;
@@ -185,18 +199,25 @@ footer{
 	text-transform: lowercase;
 }
 
-#box1, #box2, #box3, #box4{
+#facts>div{
 	width:25%;
 	float:left;
-	height: 40em;
 }
 
 #space{
 	padding-bottom: 10em;
 }
-#photos{
-	padding-bottom: 2em;
 
+
+#gallery{
+	float: left;
+	padding-bottom: 2em;
+}
+
+#photos img{
+	width: 25%;
+	float: left;
+	padding: .125em;
 }
 
 
