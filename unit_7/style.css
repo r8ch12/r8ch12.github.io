@@ -10,6 +10,7 @@
 }
 
 body{
+	width: 100%;
 	font-size: 16px;
 	font-family: 'Roboto Slab', serif;
 	font-family: 'Roboto', sans-serif;
@@ -38,7 +39,7 @@ nav a:hover{
 h2{	color:#aaa;
 	font-size: 3em;
 	margin: 1em;
-	padding: 1.5em;
+	padding: 1em;
 	text-align: center;
 }
 
@@ -46,6 +47,7 @@ h3{
 	color: green;
 	text-transform: uppercase;
 	width: 100%;
+	padding: .5em;
 }
 
 hr{
@@ -79,9 +81,19 @@ footer{
 	padding: 1em ;
 }
 
+footer p{
+	margin: auto;
+	padding: 2em;
 
-#foot p{
+}
+
+
+#left {
 	float: left;
+}
+
+#right{
+display: block;
 }
 
 #bar{
@@ -89,8 +101,7 @@ footer{
 }
 
 .hero{
-	background-image: url("hero.jpg");
-
+	background-image: url("images/greens.jpg");
 }
 
 .wrapper{
@@ -106,7 +117,7 @@ footer{
 	line-height: 2.5em;
 	margin:0 auto;
 	width: 60%;
-	padding-top: 12em;
+	padding-top: 3em;
 }
 
 .story2{
@@ -114,6 +125,7 @@ footer{
 	margin: 0 auto;
 	width: 65%;
 	padding-top: 4em;
+	text-align: left;
 }
 
 .map{
@@ -156,16 +168,16 @@ footer{
 }
 
 #icons{
-	width: 10%;
-	margin: 0 auto;
-	padding: 1em;
+	padding-bottom: 4em;
 }
 
 #icons img{
-	float: left;
+	width: 20%;
+	padding: 3em;
+	margin: auto;
 }
 
-#column{
+/*#column{
 	width: 50%;
 	padding: 1em;
 	height: 9em;
@@ -185,6 +197,13 @@ footer{
 #wintermarkets, #summermarkets{
 	float: left;
 }
+*/
+
+
+#icons>div{
+	width:25%;
+	float:left;
+}
 
 #facts{
 	max-width: 1400px;
@@ -201,7 +220,6 @@ footer{
 	font-size: 2em;
 	margin: 0;
 	padding: 0;
-
 }
 
 #facts h3{
@@ -211,14 +229,11 @@ footer{
 #facts>div{
 	width:25%;
 	float:left;
-}
-
-#space{
-	padding-bottom: 10em;
+	padding-bottom: 4em;
 }
 
 
-#gallery{
+#gallery img{
 	float: left;
 	padding-bottom: 2em;
 }
@@ -229,5 +244,73 @@ footer{
 	padding: .125em;
 }
 
+#right	{
+	float: right;
+}
+@media only screen and (max-width: 970px){
+	nav a{
+		display: block;
+		margin: .5em;
+		font-size: 1.5em;
+	}
+
+	h2{
+		font-size: 1.5em;
+	}
+	
+	h3{
+		font-size: .75em;
+	}
+
+	.story, .story2{
+		font-size: .75em;
+		line-height: 2em;
+
+	}
+	#caption{
+		font-size: .75em;
+		line-height: 2em;
+	}
+
+}
+
+@media only screen and (max-width: 500px){
+	nav a{
+		display: block;
+		margin: .5em;
+		font-size: 1em;
+	}
+	nav{
+		padding: .5em;
+	}
+	
+	#right{
+		display: block;
+		float: none;
+		
+	}
+
+	.story, .story2{
+		font-size: .5em;
+		line-height: 3em;
+	}
+	#caption{
+		font-size: .5em;
+		line-height: 3em;
+	}
+
+	#longisland{
+		display: none;
+	}
+}
 
 
+
+/*971 px nav break 
+
+1300 px story 
+
+740 px read more button and hr 
+
+810 px headings 
+*/
