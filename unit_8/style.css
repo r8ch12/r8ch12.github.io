@@ -16,6 +16,14 @@ body{
 	font-family: 'Roboto', sans-serif;
 }
 
+header{
+	background: url(images/hero.jpg);
+	background-color: black;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+
 nav{
 	background-color: #7D7F7E;
 	width: 100%;
@@ -36,6 +44,15 @@ nav a:hover{
 
 }
 
+h1{
+	font-size: 4em;
+	color: white;
+	margin:1em;
+	padding: 3em;
+	text-align: center;
+	text-shadow: 2px 2px 4px #000000;
+}
+
 h2{	color:#aaa;
 	font-size: 3em;
 	margin: 1em;
@@ -47,7 +64,7 @@ h3{
 	color: green;
 	text-transform: uppercase;
 	width: 100%;
-	padding: .5em;
+	padding: 1em;
 }
 
 hr{
@@ -254,6 +271,12 @@ display: block;
 		font-size: 1.5em;
 	}
 
+	header{
+		width: 100%;
+	}
+	header h1{
+		font-size: 3em;
+	}
 	h2{
 		font-size: 1.5em;
 	}
@@ -272,6 +295,14 @@ display: block;
 		line-height: 2em;
 	}
 
+	#facts h2{
+		font-size: 1.25em;
+	}
+
+	#facts h3{
+		font-size: .715em;
+		padding: .5em;
+	}
 }
 
 @media only screen and (max-width: 500px){
@@ -282,6 +313,12 @@ display: block;
 	}
 	nav{
 		padding: .5em;
+	}
+	header{
+		width: 100%;
+	}
+	header h1{
+		font-size: 1.5em;
 	}
 	
 	#right{
@@ -302,15 +339,16 @@ display: block;
 	#longisland{
 		display: none;
 	}
+
+	#facts h2{
+		font-size: .75em;
+	}
+
+	#facts h3{
+		font-size: .375em;
+		padding: 1em;
+	}
 }
 
 
 
-/*971 px nav break 
-
-1300 px story 
-
-740 px read more button and hr 
-
-810 px headings 
-*/
