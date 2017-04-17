@@ -328,8 +328,9 @@ display: block;
 	}
 
 	.story, .story2{
-		font-size: .5em;
+		font-size: .59em;
 		line-height: 3em;
+		width: 90%;	
 	}
 	#caption{
 		font-size: .5em;
