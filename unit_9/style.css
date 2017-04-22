@@ -101,7 +101,7 @@ footer{
 
 footer p{
 	margin: auto;
-	padding: 2em;
+	padding: 6em;
 
 }
 
@@ -162,6 +162,7 @@ display: block;
 	clear: both;
 	height: 0;
 }
+
 
 #logo{
 	margin: 1em;
@@ -271,6 +272,8 @@ display: block;
 #right	{
 	float: right;
 }
+
+
 @media only screen and (max-width: 970px){
 	nav a{
 		display: block;
@@ -356,9 +359,21 @@ display: block;
 		line-height: 2.5em;
 		width: 90%;	
 	}
+
+	#longisland h2{
+		padding: 0;
+		width: 100%;
+	}
+
+	.map{
+	display: none;
+}
 	#caption{
-		font-size: .5em;
-		line-height: 3em;
+		width: 100%;
+	}
+	#caption p{
+		font-size: 1.75em;
+		line-height: 1.5em;
 	}
 
 	#icons>div{
